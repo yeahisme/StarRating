@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.s-value-no, .s-value-no em {
+	background: url(../images/StarRatingb.png) 0px -30px repeat;
+	height: 20px;/* 星星的高度*/
+	width: 104px;/* 总宽度 */
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+.s-value-no em {
+	background-position: 0 0;
+}
+
+/* 自动生成开始 */.s-value-0d0 em{ width:0px;}.s-value-0d1 em{ width:2px;}.s-value-0d2 em{ width:4px;}.s-value-0d3 em{ width:6px;}.s-value-0d4 em{ width:8px;}.s-value-0d5 em{ width:10px;}.s-value-0d6 em{ width:12px;}.s-value-0d7 em{ width:14px;}.s-value-0d8 em{ width:16px;}.s-value-0d9 em{ width:18px;}.s-value-1d0 em{ width:20px;}.s-value-1d1 em{ width:23px;}.s-value-1d2 em{ width:25px;}.s-value-1d3 em{ width:27px;}.s-value-1d4 em{ width:29px;}.s-value-1d5 em{ width:31px;}.s-value-1d6 em{ width:33px;}.s-value-1d7 em{ width:35px;}.s-value-1d8 em{ width:37px;}.s-value-1d9 em{ width:39px;}.s-value-2d0 em{ width:41px;}.s-value-2d1 em{ width:44px;}.s-value-2d2 em{ width:46px;}.s-value-2d3 em{ width:48px;}.s-value-2d4 em{ width:50px;}.s-value-2d5 em{ width:52px;}.s-value-2d6 em{ width:54px;}.s-value-2d7 em{ width:56px;}.s-value-2d8 em{ width:58px;}.s-value-2d9 em{ width:60px;}.s-value-3d0 em{ width:62px;}.s-value-3d1 em{ width:65px;}.s-value-3d2 em{ width:67px;}.s-value-3d3 em{ width:69px;}.s-value-3d4 em{ width:71px;}.s-value-3d5 em{ width:73px;}.s-value-3d6 em{ width:75px;}.s-value-3d7 em{ width:77px;}.s-value-3d8 em{ width:79px;}.s-value-3d9 em{ width:81px;}.s-value-4d0 em{ width:83px;}.s-value-4d1 em{ width:86px;}.s-value-4d2 em{ width:88px;}.s-value-4d3 em{ width:90px;}.s-value-4d4 em{ width:92px;}.s-value-4d5 em{ width:94px;}.s-value-4d6 em{ width:96px;}.s-value-4d7 em{ width:98px;}.s-value-4d8 em{ width:100px;}.s-value-4d9 em{ width:102px;}.s-value-5d0 em{ width:104px}/* 自动生成结束,请放到相应的样式表里 */

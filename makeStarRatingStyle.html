@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>makeStarRatingStyle</title>
+</head>
+
+<body>
+<h5>结果请查看<strong>console.log</strong></h5>
+<script>
+//starWidth 星星的宽度
+//starSpace 星星的间隔宽度
+//controClass 类名前缀 默认是s-value-
+//用法 如 makeStarRatingStyle(10,1) 查看console.log
+
+function makeStarRatingStyle(starWidth,starSpace,controClass){
+	var max = 5;
+	var starWidth = starWidth;
+	var starSpace =starSpace;
+	var starNum = 5; //default
+	var str="/* 自动生成开始 */"
+	var unit = 1/10;
+	var controClass = controClass || "s-value-";
+	for(var i = 0 ; i < starNum; i++){
+		for(var j = 0; j< 1/unit; j++){
+			str +="."+controClass+i+"d"+j+" em{ width:"
+			if(i<=0){
+				str +=parseInt(i*starWidth+j*unit*starWidth)
+			}else{
+				if(j==0){
+					str +=parseInt(i*starWidth+(i-1)*starSpace+j*unit*starWidth)
+				}else{
+					str +=parseInt(i*starWidth+(i)*starSpace+j*unit*starWidth)
+				}
+				
+			}
+			str +="px;}"
+		}
+	}
+	str +="."+controClass+starNum+"d"+0+" em{ width:"
+	str +=parseInt(parseInt(starNum*starWidth+(starNum-1)*starSpace))
+	str +="px}"
+	str += "/* 自动生成结束,请放到相应的样式表里 */"
+	console.log(str)
+}
+
+//用于demo1
+makeStarRatingStyle(10,1)
+
+//用于demo2
+makeStarRatingStyle(20,1)
+</script>
+</body>
+</html>
